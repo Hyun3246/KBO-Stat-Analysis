@@ -37,5 +37,5 @@ sum_result = pg.cal_score(loaded_game.squad)
 dc.user_dataframe.loc[dc.user_dataframe["ID"] == loaded_game.user_id, ["점수"]] = sum_result
 print("{}팀의 점수는 {}입니다.".format(loaded_game.user_id, sum_result))
 
-# # 점수 비교 함수 불러오기
-# rk.cal_ranking(loaded_game.user_id)
+# 점수 비교 함수 불러오기
+rk.cal_ranking(loaded_game, sum_result)
