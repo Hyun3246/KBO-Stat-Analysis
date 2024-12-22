@@ -1,10 +1,10 @@
 <div align="center">
   
-# KBO-Stats-Analysis
+# Predict-WAR-with-Classic-Stats
 
 </div>
 
-- **Purpose**: Analyze KBO stats and figure out insights.
+- **Purpose**: Predict WAR (baseball) with Classic Stats of KBO
 - **Date**: October 31, 2024 ~
 - **Main Language**: Python
 
